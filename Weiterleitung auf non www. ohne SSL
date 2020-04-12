@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^www\.name-der-domain\.de$ [NC]
+RewriteRule ^(.*)$ http://name-der-domain.de/$1 [R=301,L]
+</IfModule>
